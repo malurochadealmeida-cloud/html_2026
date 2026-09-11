@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.sobre{
+
+    /*Tamnho de largura de página*/
+    /*max-width=sem barra de rolagem na horizontal*/
+     width: 800px;
+    /*Centralizar a página*/
+    margin: 40px auto;
+    /*Borda da tela*/
+    border: 1px solid rgb(79, 174, 71)  ;
+}
+.sobre h1{
+color:rgb(231, 60, 60);
+/*Espaçamento dentro do elemento */
+/*
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;*/
+
+/* Abreviando padding
+padding: 10px 10px 10px 10px;
+/*        T     R    B    L  */
+padding: 15px;
+/*Centralizar texto*/
+text-align: center;
+/*Tamanho de texto*/
+font-size: 40px;
+}
+
+.sobre p{
+color: rgb(129, 27, 27);
+padding: 15px 15px 15px 15px;
+/*Tamanho de texto*/
+font-size: 22px;
+/*Espaçamento de texto*/
+line-height: 30px;
+
+}
+
+.sobre img{
+    /*Borda de imagem */
+    border: 5px solid green;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+}

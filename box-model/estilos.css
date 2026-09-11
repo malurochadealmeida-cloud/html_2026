@@ -1,0 +1,43 @@
+* {
+    margin:0%;
+    padding:0%;
+}
+body {
+background-color: oklch(91.093% 0.03322 223.557);
+
+}
+
+h1{
+
+color: #04014f
+}
+
+.box  {
+    /*Borda do CSS*/
+  border:2px solid rgb(26, 14, 194); 
+  /*Tamanho de largura*/
+  width: 350px; 
+    /*Tamanho ds altura*/
+    height:180px;
+    
+    /*
+        Espaçamento - fora do elemento
+        margin-top: 20px ;
+        margin-right: 20px;
+        margin-bottom: 22px;
+        margin-left: 50px;
+        */
+    /*Usando margem na mesma linha*/
+    margin:20px 20px 20px 20px;
+    /*      T    R    B    L            */
+
+}
+img{
+position:absolute;
+top: 60px;
+width: 500px; 
+right: 50px;
+bottom:0%;
+
+}
+
